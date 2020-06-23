@@ -1,0 +1,14 @@
+.hero {
+  background-image: url("/assets/img/heroimg.jpg");
+  height: 30em;
+  padding: 2em;
+  padding-top: 5em;
+  padding-left: 3em;
+  color: white;
+  font-family: "Big Shoulders Display", cursive;
+}
+.hero p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/*# sourceMappingURL=hero.component.css.map */

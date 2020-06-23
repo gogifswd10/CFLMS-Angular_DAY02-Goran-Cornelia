@@ -1,0 +1,23 @@
+<h1>Get in touch</h1>
+<div class="container">
+  <form [formGroup]="contactDetails" (ngSubmit)="onSubmit()">
+    <label for="name">Name:</label>
+    <input type="text" formControlName="firstName" id="name">
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="email" formControlName="email" id="email">
+    <br>
+
+    <label for="subject">Subject:</label>
+    <input id="subject" type="text" formControlName="subject">
+    <br>
+    
+    <label for="message">Message:</label>
+    <textarea name="message" id="message" cols="30" rows="10" formControlName="message"></textarea>
+    <br>
+
+    <input type="submit" class="btn btn-dark" value="Submit">
+
+  </form>
+</div>

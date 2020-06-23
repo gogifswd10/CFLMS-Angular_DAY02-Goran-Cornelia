@@ -1,0 +1,16 @@
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.container {
+  margin-left: 30%;
+}
+.container label {
+  margin-bottom: 1em;
+  width: 5em;
+}
+
+/*# sourceMappingURL=contact-page.component.css.map */

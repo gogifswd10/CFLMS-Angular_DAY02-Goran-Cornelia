@@ -1,0 +1,16 @@
+<div  class="row">
+
+  <div  *ngFor="let car of cars" class="col-sm-5 col-md-3">
+    <div class="imgCont"><img src="/assets/img/{{car.img}}" alt=""></div>
+    <h3>{{car.name}}</h3>
+
+    <div class="detail">
+      <p><i class='fas fa-tachometer-alt'></i> Fuel: {{car.fuel}}</p>
+      <p><i class="fas fa-car-alt"></i>Class: {{car.klasse}}</p>
+      <p><i class="fas fa-users"></i>Max passengers: {{car.seats}}</p>
+    </div>
+
+    <button type="button" class="btn">learn more</button>
+
+  </div>
+</div>
